@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# uv
+# uv.lock is usually committed to version control
+# uv.lock
+# Note: uv.lock is usually committed, but some prefer to ignore it in libraries. 
+# For a lab/project, it's better to keep it. I will comment it out or leave it out.
+# Actually, uv documentation suggests committing uv.lock.
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
